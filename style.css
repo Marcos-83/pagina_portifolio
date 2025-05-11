@@ -1,0 +1,232 @@
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #000;
+    height: 100%;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.interface img{
+    width: 150px;
+    height: 150px;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 8px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #e76610;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+h2.titulo{
+    color:#fff;
+    font-size: 35px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color:#e76610;
+}
+
+button:hover{
+    box-shadow: 0px 0px 8px #ff6600;
+    transform: scale(1.10);
+    transition: .2s;
+}
+
+/* ESTILO DO CABEÇALHO */
+header{
+    padding: 5px 1%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #777676;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.15);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+/* .btn-contato button:hover{
+    box-shadow: 0px 0px 8px #ff6600;
+    transform: scale(1.10);
+    transition: .2s;
+} */
+
+/* ESTILO DO TOPO DO SITE */
+section .topo-do-site{
+    padding: 80px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 46px;
+    line-height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color:#e76610;  
+    font-size: 50px;  
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 0px;
+}
+
+.img-topo-site img{
+    width: 430px;
+    height: 380px;
+    filter: drop-shadow(0px 0px 8px #51ff00);
+
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/* ESTILO DOS SERVIÇOS */
+section.servicos{
+    padding: 80px 4%;
+    margin-top: 35px;
+}
+
+section.servicos .flex{
+    gap: 60px;
+}
+
+.servicos .servicos-box{
+    color: #fff;
+    padding: 40px;
+    margin: 30px;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.servicos .servicos-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ffffff7e;
+}
+
+.servicos .servicos-box i{
+    font-size: 60px;
+    color:#e76610;
+}
+
+.servicos .servicos-box h3{
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+.servicos .servicos-box p{
+    font-size: 16px;
+    color: #fff;
+}
+
+/* ESTILO DO SOBER */
+section.sobre{
+    padding: 80px 4%;
+}
+
+.sobre .img-sobre img{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: #fff;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;    
+    line-height: 45px;
+    margin-bottom: 15px;
+}
+
+.sobre .txt-sobre h2 span{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #e76610;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 15px 0;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.sobre .txt-sobre .btn-social button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #e76610;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0 8px;
+    transition: .2s;
+}
+
+
+
