@@ -9,6 +9,10 @@
         display: none;
 }
 
+header .btn-abrir-menu, .menu-mobile, .btn-fechar, .overlay-menu {
+    display: block;
+}
+
 /* TOPO DO SITE */
 section.topo-do-site .flex{
     gap: 20px;

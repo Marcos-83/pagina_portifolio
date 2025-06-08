@@ -83,6 +83,9 @@ header nav.menu-desktop ul li{
     padding: 0 40px;
 }
 
+header .btn-abrir-menu, .menu-mobile, .btn-fechar, .overlay-menu {
+    display: none;
+}
 
 /* .btn-contato button:hover{
     box-shadow: 0px 0px 8px #ff6600;
