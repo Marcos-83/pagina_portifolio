@@ -14,7 +14,9 @@
     <!-- ICONS BOOTSTRAP -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <!-- FIM ICONS BOOTSTRAP -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="stylesheet" href="./src/css/mobile.css">
     <title>MRM Portifólios</title>
 </head>
 
@@ -24,7 +26,7 @@
         <div class="interface">
             <div class="logo">
                 <a href="#">
-                    <img src="images/images-removebg-preview (5).png" alt="Logo TESTE">
+                    <img src="./src/images/images-removebg-preview (5).png" alt="Logo TESTE">
                 </a>
             </div><!--logo-->
 
@@ -42,6 +44,26 @@
                     <button>Contato</button>
                 </a>
             </div><!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-abrir-menu-mobile"><i class="bi bi-box-arrow-left"></i></div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar"><i class="bi bi-box-arrow-right"></i></div>
+
+                <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Portifólios</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+
+            </div><!--menu-mobile-->
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+
         </div><!--interface-->
     </header>
 
@@ -62,7 +84,7 @@
                         </div>
                     </div><!--txt-topo-site-->
                     <div class="img-topo-site">
-                        <img src="images/e1f87a4c3830729e9e86845ffa1e0e8a-removebg-preview.png" alt="#">
+                        <img src="./src/images/e1f87a4c3830729e9e86845ffa1e0e8a-removebg-preview.png" alt="#">
                     </div><!--img-topo-site-->
                 </div><!--flex-->
             </div><!--interface-->
@@ -100,7 +122,7 @@
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
-                        <img src="images/receber-dinheiro-do-exterior-2.jpg" alt="#">
+                        <img src="./src/images/receber-dinheiro-do-exterior-2.jpg" alt="#">
                     </div><!--img-sobre-->
                     <div class="txt-sobre">
                         <h2>MUITO PRAZER, <span>SOMOS A MRM SOLUÇÕES.</span></h2>
@@ -125,15 +147,15 @@
                 <h2 class="titulo">NOSSO <span>PORTIFÓLIO.</span></h2>
                 <div class="flex">
                     <div class="img-port"
-                        style="background-image: url(images/photo-grids-corporate-business-flyer-template-2.jpg);">
+                        style="background-image: url(./src/images/photo-grids-corporate-business-flyer-template-2.jpg);">
                         <div class="overlay">Projeto nº 1</div>
                     </div>
                     <div class="img-port"
-                        style="background-image: url(images/photo-grids-corporate-business-flyer-template-2.jpg);">
+                        style="background-image: url(./src/images/photo-grids-corporate-business-flyer-template-2.jpg);">
                         <div class="overlay">Projeto nº 2</div>
                     </div>
                     <div class="img-port"
-                        style="background-image: url(images/photo-grids-corporate-business-flyer-template-2.jpg);">
+                        style="background-image: url(./src/images/photo-grids-corporate-business-flyer-template-2.jpg);">
                         <div class="overlay">Projeto nº 3</div>
                     </div>
                 </div><!--flex-->
@@ -160,7 +182,7 @@
             <div class="line-footer">
                 <div class="flex">
                     <div class="logo-footer">
-                        <img src="images/images-removebg-preview (5).png" alt="Logo TESTE">
+                        <img src="./src/images/images-removebg-preview (5).png" alt="Logo TESTE">
                     </div><!--logo-footer-->
 
                     <div class="btn-social">
@@ -178,6 +200,6 @@
         </div><!--interface-->
     </footer>
 
+    <script src="./src/js/menu-mobile.js">defer</script>
 </body>
-
 </html>
